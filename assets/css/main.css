@@ -3613,8 +3613,6 @@ input, select, textarea {
 	#header {
 		/* background-color: #4696e5; */
 		background-image:url("./images/bg.jpg");
-		background-position: center;
-		background-size: cover;
 		color: #d1e5f9;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -3629,12 +3627,13 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		/* background-image: url("images/overlay.png"), url("images/pattern-size1.svg"); */
+		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
-		height: 100vh;
+		/* height: 100vh; */
 		min-height: 35em;
+		
 	}
 
 		#header input[type="submit"],
