@@ -3611,7 +3611,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
+		/* background-color: #4696e5; */
+		background-image:url("./images/bg.jpg");
+		background-position: center;
+		background-size: cover;
 		color: #d1e5f9;
 		padding: 4.5em 0 2.5em 0 ;
 		-moz-align-items: center;
@@ -3626,7 +3629,7 @@ input, select, textarea {
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: url("images/overlay.png"), url("images/pattern-size1.svg");
+		/* background-image: url("images/overlay.png"), url("images/pattern-size1.svg"); */
 		background-position: top left, center center;
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
@@ -3891,7 +3894,8 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+				/* background-image: url("images/overlay.png"), url("images/pattern-size2.svg"); */
+				background-image:url("./images/bg.jpg");
 			}
 
 		}
@@ -3940,9 +3944,9 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+				/* background-image: url("images/overlay.png"), url("images/pattern-size3.svg"); */
+				background-image: url("./images/bg.jpg");
 			}
 
 				#header h1 {
